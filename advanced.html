@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <meta charset="UTF-8">
+        <meta content="dark" name="color-scheme">
+        <meta content="origin" name="referrer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-advanced.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="./index.html">Google Search</a>
+        </div>
+        <div class="middle">
+            <div class="logo">
+                Advanced Search
+            </div>
+            <hr>
+            <div class="filler">
+                Find pages with...
+            </div>
+            <div class="filters">
+                <form method= "get" action= "https://www.google.com/search">
+                    <div class="filter">
+                        <div class="label-text">
+                            all these words:
+                        </div>
+                        <div class="search">
+                            <input type="text" name="as_q">
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <div class="label-text">
+                            this exact word or phrase:
+                        </div>
+                        <div class="search">
+                            <input type="text" name="as_epq">
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <div class="label-text">
+                            any of these words:
+                        </div>
+                        <div class="search">
+                            <input type="text" name="as_oq">
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <div class="label-text">
+                            none of these words:
+                        </div>
+                        <div class="search">
+                            <input type="text" name="as_eq">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

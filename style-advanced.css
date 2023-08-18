@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Google-Font;
+    src: url("/Product Sans Regular.ttf") format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    gap: 30px;
+}
+
+.logo {
+    color: red;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: Google-Font, sans-serif;
+    padding: 20px;
+}
+
+.filler {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Google-Font, sans-serif;
+}
+
+.filters {
+    font-size: 15px;
+    font-family: Google-Font, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: blue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Google-Font;
+    src: url("/Product Sans Regular.ttf") format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    gap: 30px;
+}
+
+.logo {
+    font-color: white;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: Google-Font, sans-serif;
+}
+
+.logo sub {
+    color: red;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: Google-Font, sans-serif;
+    vertical-align: baseline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
